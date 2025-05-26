@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>NeuroNexis - Secure AI Assistant</title>
-  <meta name="description" content="NeuroNexis: Secure AI app for PCs and devices with local data storage.">
-  <meta name="keywords" content="AI assistant, data security, local storage, task automation, computer vision, NeuroNexis">
+  <meta name="description" content="NeuroNexis: Secure AI app for PCs and devices with local data storage and Google integration.">
+  <meta name="keywords" content="AI assistant, data security, local storage, task automation, computer vision, Google integration, NeuroNexis">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -55,11 +55,21 @@
           </ul>
         </li>
         <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#"><span data-translate="language">Language</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#" class="lang-select" data-lang="en">English</a></li>
+            <li><a href="#" class="lang-select" data-lang="ro">Română</a></li>
+            <li><a href="#" class="lang-select" data-lang="ru">Русский</a></li>
+            <li><a href="#" class="lang-select" data-lang="fr">Français</a></li>
+            <li><a href="#" class="lang-select" data-lang="de">Deutsch</a></li>
+          </ul>
+        </li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
 
-    <a class="btn-getstarted" href="#pricing">Get Started</a>
+    <a class="btn-getstarted" href="#pricing" data-translate="get_started">Get Started</a>
   </div>
 </header>
 
@@ -73,21 +83,21 @@
           <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
             <div class="company-badge mb-4">
               <i class="bi bi-shield-lock-fill me-2"></i>
-              Secure by Design
+              <span data-translate="secure_by_design">Secure by Design</span>
             </div>
             <h1 class="mb-4">
               NeuroNexis: <br>
-              <span class="accent-text">Secure AI App</span> <br>
-              for PCs & Devices
+              <span class="accent-text" data-translate="secure_ai_app">Secure AI App</span> <br>
+              <span data-translate="for_pcs_devices">for PCs & Devices</span>
             </h1>
-            <p class="mb-4 mb-md-5">
-              Run NeuroNexis locally on your PC or device with all sensitive data stored securely on your side.
+            <p class="mb-4 mb-md-5" data-translate="hero_description">
+              Run NeuroNexis locally on your PC or device with all sensitive data stored securely on your side, integrated with Google for personalized feedback via your digital footprint.
             </p>
             <div class="hero-buttons">
-              <a href="#pricing" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
+              <a href="#pricing" class="btn btn-primary me-0 me-sm-2 mx-1" data-translate="get_started">Get Started</a>
+              <a href="https://poalelungi-ion.github.io/NeuroNexis/indexapp.html" class="btn btn-link mt-2 mt-sm-0 glightbox">
                 <i class="bi bi-play-circle me-1"></i>
-                Watch Demo
+                <span data-translate="watch_demo">Try Demo</span>
               </a>
             </div>
           </div>
@@ -95,63 +105,6 @@
         <div class="col-lg-6">
           <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
             <img src="assets/img/illustration-1.webp" alt="NeuroNexis Interface" class="img-fluid">
-            <div class="customers-badge">
-              <div class="customer-avatars">
-                <img src="assets/img/avatar-1.webp" alt="User 1" class="avatar">
-                <img src="assets/img/avatar-2.webp" alt="User 2" class="avatar">
-                <img src="assets/img/avatar-3.webp" alt="User 3" class="avatar">
-                <img src="assets/img/avatar-4.webp" alt="User 4" class="avatar">
-                <img src="assets/img/avatar-5.webp" alt="User 5" class="avatar">
-                <span class="avatar more">12k+</span>
-              </div>
-              <p class="mb-0 mt-2">12,000+ users trust NeuroNexis</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
-        <div class="col-lg-3 col-md-6">
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="bi bi-shield-lock"></i>
-            </div>
-            <div class="stat-content">
-              <h4>100% Local</h4>
-              <p class="mb-0">Data stays on your device</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="bi bi-briefcase"></i>
-            </div>
-            <div class="stat-content">
-              <h4>10k+ Users</h4>
-              <p class="mb-0">Secure productivity</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="bi bi-graph-up"></i>
-            </div>
-            <div class="stat-content">
-              <h4>80k+ Tasks</h4>
-              <p class="mb-0">Automated securely</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="bi bi-camera"></i>
-            </div>
-            <div class="stat-content">
-              <h4>5M+ Images</h4>
-              <p class="mb-0">Processed locally</p>
-            </div>
           </div>
         </div>
       </div>
@@ -161,25 +114,25 @@
   <!-- Features Section -->
   <section id="features" class="features section">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Features</h2>
-      <p>Secure AI tools for productivity and vision</p>
+      <h2 data-translate="features">Features</h2>
+      <p data-translate="features_subtitle">Secure AI tools for productivity and vision</p>
     </div>
     <div class="container">
       <div class="d-flex justify-content-center">
         <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <h4>Data Security</h4>
+              <h4 data-translate="data_security">Data Security</h4>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <h4>Task Automation</h4>
+              <h4 data-translate="task_automation">Task Automation</h4>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <h4>Computer Vision</h4>
+              <h4 data-translate="computer_vision">Computer Vision</h4>
             </a>
           </li>
         </ul>
@@ -188,12 +141,12 @@
         <div class="tab-pane fade active show" id="features-tab-1">
           <div class="row">
             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-              <h3>Data Security</h3>
-              <p class="fst-italic">Your data stays on your device.</p>
+              <h3 data-translate="data_security">Data Security</h3>
+              <p class="fst-italic" data-translate="data_security_subtitle">Your data stays on your device.</p>
               <ul>
-                <li><i class="bi bi-check2-all"></i> <span>Local storage for sensitive data.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>End-to-end encryption.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>Biometric access control.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="local_storage">Local storage for sensitive data.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="end_to_end_encryption">End-to-end encryption.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="biometric_access">Biometric access control.</span></li>
               </ul>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -204,12 +157,12 @@
         <div class="tab-pane fade" id="features-tab-2">
           <div class="row">
             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-              <h3>Task Automation</h3>
-              <p class="fst-italic">Streamline workflows locally.</p>
+              <h3 data-translate="task_automation">Task Automation</h3>
+              <p class="fst-italic" data-translate="task_automation_subtitle">Streamline workflows locally.</p>
               <ul>
-                <li><i class="bi bi-check2-all"></i> <span>AI calendar and email management.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>Smart reminders for deadlines.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>Integrates with Trello, Notion.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="calendar_email_management">AI calendar and email management.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="smart_reminders">Smart reminders for deadlines.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="trello_notion_integration">Integrates with Trello, Notion, and Google Workspace.</span></li>
               </ul>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -220,12 +173,12 @@
         <div class="tab-pane fade" id="features-tab-3">
           <div class="row">
             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-              <h3>Computer Vision</h3>
-              <p class="fst-italic">Local visual analysis.</p>
+              <h3 data-translate="computer_vision">Computer Vision</h3>
+              <p class="fst-italic" data-translate="computer_vision_subtitle">Local visual analysis.</p>
               <ul>
-                <li><i class="bi bi-check2-all"></i> <span>Object detection in images.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>Automate visual inspections.</span></li>
-                <li><i class="bi bi-check2-all"></i> <span>Smart camera integration.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="object_detection">Object detection in images.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="visual_inspections">Automate visual inspections.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span data-translate="smart_camera_integration">Smart camera integration.</span></li>
               </ul>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -244,29 +197,29 @@
         <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
           <div class="feature-box orange">
             <i class="bi bi-shield-lock"></i>
-            <h4>Data Security</h4>
-            <p>Store all sensitive data locally with encryption and biometric access.</p>
+            <h4 data-translate="data_security">Data Security</h4>
+            <p data-translate="data_security_description">Store all sensitive data locally with encryption and biometric access.</p>
           </div>
         </div>
         <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
           <div class="feature-box blue">
             <i class="bi bi-book"></i>
-            <h4>Educational Support</h4>
-            <p>AI-driven study tools with secure local data storage.</p>
+            <h4 data-translate="educational_support">Educational Support</h4>
+            <p data-translate="educational_support_description">AI-driven study tools with secure local data storage.</p>
           </div>
         </div>
         <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
           <div class="feature-box green">
             <i class="bi bi-building"></i>
-            <h4>Business Automation</h4>
-            <p>Automate tasks securely on your PC or device.</p>
+            <h4 data-translate="business_automation">Business Automation</h4>
+            <p data-translate="business_automation_description">Automate tasks securely on your PC or device.</p>
           </div>
         </div>
         <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
           <div class="feature-box red">
             <i class="bi bi-camera"></i>
-            <h4>Computer Vision</h4>
-            <p>Analyze visuals locally for secure automation.</p>
+            <h4 data-translate="computer_vision">Computer Vision</h4>
+            <p data-translate="computer_vision_description">Analyze visuals locally for secure automation.</p>
           </div>
         </div>
       </div>
@@ -281,8 +234,8 @@
           <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
             <div class="d-flex align-items-center justify-content-end gap-4">
               <div class="feature-content">
-                <h3>Local App</h3>
-                <p>Run NeuroNexis on PCs and devices securely.</p>
+                <h3 data-translate="local_app">Local App</h3>
+                <p data-translate="local_app_description">Run NeuroNexis on PCs and devices securely.</p>
               </div>
               <div class="feature-icon flex-shrink-0">
                 <i class="bi bi-display"></i>
@@ -292,8 +245,8 @@
           <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
             <div class="d-flex align-items-center justify-content-end gap-4">
               <div class="feature-content">
-                <h3>Secure AI</h3>
-                <p>Process tasks and visuals locally.</p>
+                <h3 data-translate="secure_ai">Secure AI</h3>
+                <p data-translate="secure_ai_description">Process tasks and visuals locally.</p>
               </div>
               <div class="feature-icon flex-shrink-0">
                 <i class="bi bi-shield-lock"></i>
@@ -303,11 +256,11 @@
           <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
             <div class="d-flex align-items-center justify-content-end gap-4">
               <div class="feature-content">
-                <h3>Real-Time Insights</h3>
-                <p>Secure recommendations on your device.</p>
+                <h3 data-translate="google_integration">Google Integration</h3>
+                <p data-translate="google_integration_description">Personalized feedback via secure Google and digital footprint integration.</p>
               </div>
               <div class="feature-icon flex-shrink-0">
-                <i class="bi bi-eye"></i>
+                <i class="bi bi-google"></i>
               </div>
             </div>
           </div>
@@ -324,8 +277,8 @@
                 <i class="bi bi-code-square"></i>
               </div>
               <div class="feature-content">
-                <h3>Integrations</h3>
-                <p>Connect with Google Workspace, Salesforce securely.</p>
+                <h3 data-translate="integrations">Integrations</h3>
+                <p data-translate="integrations_description">Connect with Google Workspace, Salesforce securely.</p>
               </div>
             </div>
           </div>
@@ -335,8 +288,8 @@
                 <i class="bi bi-phone"></i>
               </div>
               <div class="feature-content">
-                <h3>Device Support</h3>
-                <p>Runs on compatible PCs and devices.</p>
+                <h3 data-translate="device_support">Device Support</h3>
+                <p data-translate="device_support_description">Runs on compatible PCs and devices.</p>
               </div>
             </div>
           </div>
@@ -346,8 +299,8 @@
                 <i class="bi bi-browser-chrome"></i>
               </div>
               <div class="feature-content">
-                <h3>Cross-Platform</h3>
-                <p>Secure app across platforms.</p>
+                <h3 data-translate="cross_platform">Cross-Platform</h3>
+                <p data-translate="cross_platform_description">Secure app across platforms.</p>
               </div>
             </div>
           </div>
@@ -361,9 +314,9 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row content justify-content-center align-items-center position-relative">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="display-4 mb-4">Secure Productivity with NeuroNexis</h2>
-          <p class="mb-4">Run a secure AI app on your PC or device with all data stored locally.</p>
-          <a href="#pricing" class="btn btn-cta">Get Started Now</a>
+          <h2 class="display-4 mb-4" data-translate="secure_productivity">Secure Productivity with NeuroNexis</h2>
+          <p class="mb-4" data-translate="call_to_action_description">Run a secure AI app on your PC or device with all data stored locally and personalized via Google integration.</p>
+          <a href="#pricing" class="btn btn-cta" data-translate="get_started_now">Get Started Now</a>
         </div>
         <div class="shape shape-1">
           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -452,115 +405,11 @@
     </div>
   </section><!-- /Clients Section -->
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section light-background">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Testimonials</h2>
-      <p>Trusted by users for secure AI</p>
-    </div>
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>John Doe</h3>
-            <h4>Freelancer</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Running NeuroNexis on my PC with local data storage gives me peace of mind while automating tasks.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Emma Carter</h3>
-            <h4>Student</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>The secure app on my laptop organizes my notes and visuals without cloud risks.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Lisa Brown</h3>
-            <h4>Parent</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Family plan on our home PC keeps data local and schedules secure.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Michael Lee</h3>
-            <h4>Business Owner</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Enterprise plan runs on our devices, securing data and automating vision tasks.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- /Testimonials Section -->
-
-  <!-- Stats Section -->
-  <section id="stats" class="stats section">
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="12000" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Users</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Businesses</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="100000" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Tasks Automated</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Local Data (%)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- /Stats Section -->
-
   <!-- Services Section -->
   <section id="services" class="services section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Services</h2>
-      <p>Secure AI for productivity</p>
+      <h2 data-translate="services">Services</h2>
+      <p data-translate="services_subtitle">Secure AI for productivity</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row g-4">
@@ -570,9 +419,9 @@
               <i class="bi bi-shield-lock"></i>
             </div>
             <div>
-              <h3>Data Security</h3>
-              <p>Store all sensitive data locally with encryption on your PC or device.</p>
-              <a href="#pricing" class="read-more">Learn More <i class="bi bi-arrow-right"></i></a>
+              <h3 data-translate="data_security">Data Security</h3>
+              <p data-translate="data_security_service_description">Store all sensitive data locally with encryption on your PC or device.</p>
+              <a href="#pricing" class="read-more" data-translate="learn_more">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -582,9 +431,9 @@
               <i class="bi bi-diagram-3"></i>
             </div>
             <div>
-              <h3>Business Automation</h3>
-              <p>Automate tasks securely on compatible devices with local data.</p>
-              <a href="#pricing" class="read-more">Learn More <i class="bi bi-arrow-right"></i></a>
+              <h3 data-translate="business_automation">Business Automation</h3>
+              <p data-translate="business_automation_service_description">Automate tasks securely on compatible devices with local data.</p>
+              <a href="#pricing" class="read-more" data-translate="learn_more">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -594,9 +443,9 @@
               <i class="bi bi-easel"></i>
             </div>
             <div>
-              <h3>Educational Support</h3>
-              <p>Secure AI learning tools running locally on your PC.</p>
-              <a href="#pricing" class="read-more">Learn More <i class="bi bi-arrow-right"></i></a>
+              <h3 data-translate="educational_support">Educational Support</h3>
+              <p data-translate="educational_support_service_description">Secure AI learning tools running locally on your PC.</p>
+              <a href="#pricing" class="read-more" data-translate="learn_more">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -606,9 +455,9 @@
               <i class="bi bi-camera"></i>
             </div>
             <div>
-              <h3>Computer Vision</h3>
-              <p>Analyze visuals locally on supported devices.</p>
-              <a href="#pricing" class="read-more">Learn More <i class="bi bi-arrow-right"></i></a>
+              <h3 data-translate="computer_vision">Computer Vision</h3>
+              <p data-translate="computer_vision_service_description">Analyze visuals locally on supported devices.</p>
+              <a href="#pricing" class="read-more" data-translate="learn_more">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -619,8 +468,8 @@
   <!-- Pricing Section -->
   <section id="pricing" class="pricing section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Pricing</h2>
-      <p>Choose your secure NeuroNexis plan</p>
+      <h2 data-translate="pricing">Pricing</h2>
+      <p data-translate="pricing_subtitle">Choose your secure NeuroNexis plan</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper init-swiper pricing-swiper">
@@ -657,131 +506,131 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Basic Plan</h3>
+              <h3 data-translate="basic_plan">Basic Plan</h3>
               <div class="price">
                 <span class="currency">$</span>
                 <span class="amount">9.9</span>
-                <span class="period">/ month</span>
+                <span class="period" data-translate="per_month">/ month</span>
               </div>
-              <p class="description">Essential AI for individuals, cloud-based.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="basic_plan_description">Essential AI for individuals, cloud-based.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> AI Calendar & Tasks</li>
-                <li><i class="bi bi-check-circle-fill"></i> Smart Reminders</li>
-                <li><i class="bi bi-check-circle-fill"></i> Pomodoro Mode</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="calendar_tasks">AI Calendar & Tasks</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="smart_reminders">Smart Reminders</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="pomodoro_mode">Pomodoro Mode</span></li>
               </ul>
-              <a href="#" class="btn btn-primary plan-select" data-plan="basic">Buy Now <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="btn btn-primary plan-select" data-plan="basic" data-translate="buy_now">Buy Now <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card popular">
-              <div class="popular-badge">Most Popular</div>
-              <h3>Pro Plan</h3>
+              <div class="popular-badge" data-translate="most_popular">Most Popular</div>
+              <h3 data-translate="pro_plan">Pro Plan</h3>
               <div class="price">
                 <span class="currency">$</span>
                 <span class="amount">19.9</span>
-                <span class="period">/ month</span>
+                <span class="period" data-translate="per_month">/ month</span>
               </div>
-              <p class="description">Secure app for PCs/devices, local data.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="pro_plan_description">Secure app for PCs/devices, local data.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Local Task Automation</li>
-                <li><i class="bi bi-check-circle-fill"></i> Trello, Notion, Slack</li>
-                <li><i class="bi bi-check-circle-fill"></i> Voice Transcription</li>
-                <li><i class="bi bi-check-circle-fill"></i> Basic Vision Tools</li>
-                <li><i class="bi bi-check-circle-fill"></i> Local Data Storage</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_task_automation">Local Task Automation</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="trello_notion_slack">Trello, Notion, Slack</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="voice_transcription">Voice Transcription</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="basic_vision_tools">Basic Vision Tools</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_data_storage">Local Data Storage</span></li>
               </ul>
-              <a href="#" class="btn btn-light plan-select" data-plan="pro">Buy Now <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="btn btn-light plan-select" data-plan="pro" data-translate="buy_now">Buy Now <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Premium Plan</h3>
+              <h3 data-translate="premium_plan">Premium Plan</h3>
               <div class="price">
                 <span class="currency">$</span>
                 <span class="amount">39.9</span>
-                <span class="period">/ month</span>
+                <span class="period" data-translate="per_month">/ month</span>
               </div>
-              <p class="description">Advanced AI, cloud-based.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="premium_plan_description">Advanced AI, cloud-based.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Budget AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> Insurance Management</li>
-                <li><i class="bi bi-check-circle-fill"></i> Learning AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> Advanced Vision</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="budget_ai">Budget AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="insurance_management">Insurance Management</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="learning_ai">Learning AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="advanced_vision">Advanced Vision</span></li>
               </ul>
-              <a href="#" class="btn btn-primary plan-select" data-plan="premium">Buy Now <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="btn btn-primary plan-select" data-plan="premium" data-translate="buy_now">Buy Now <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Family Plan</h3>
+              <h3 data-translate="family_plan">Family Plan</h3>
               <div class="price">
-                <span class="amount">Contact for Pricing</span>
+                <span class="amount" data-translate="contact_for_pricing">Contact for Pricing</span>
               </div>
-              <p class="description">Secure family solution, cloud-based.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="family_plan_description">Secure family solution, cloud-based.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Multi-User Accounts</li>
-                <li><i class="bi bi-check-circle-fill"></i> Shared Calendar</li>
-                <li><i class="bi bi-check-circle-fill"></i> Parental Controls</li>
-                <li><i class="bi bi-check-circle-fill"></i> Vision Organization</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="multi_user_accounts">Multi-User Accounts</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="shared_calendar">Shared Calendar</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="parental_controls">Parental Controls</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="vision_organization">Vision Organization</span></li>
               </ul>
-              <a href="#contact" class="btn btn-primary plan-select" data-plan="family">Get Quote <i class="bi bi-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-primary plan-select" data-plan="family" data-translate="get_quote">Get Quote <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Business Plan</h3>
+              <h3 data-translate="business_plan">Business Plan</h3>
               <div class="price">
-                <span class="amount">Contact for Pricing</span>
+                <span class="amount" data-translate="contact_for_pricing">Contact for Pricing</span>
               </div>
-              <p class="description">Secure app for teams, local data.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="business_plan_description">Secure app for teams, local data.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Local Team Automation</li>
-                <li><i class="bi bi-check-circle-fill"></i> CRM Integration</li>
-                <li><i class="bi bi-check-circle-fill"></i> Contract Management</li>
-                <li><i class="bi bi-check-circle-fill"></i> Vision Tools</li>
-                <li><i class="bi bi-check-circle-fill"></i> Local Data Storage</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_team_automation">Local Team Automation</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="crm_integration">CRM Integration</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="contract_management">Contract Management</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="vision_tools">Vision Tools</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_data_storage">Local Data Storage</span></li>
               </ul>
-              <a href="#contact" class="btn btn-primary plan-select" data-plan="business">Get Quote <i class="bi bi-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-primary plan-select" data-plan="business" data-translate="get_quote">Get Quote <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Enterprise Plan</h3>
+              <h3 data-translate="enterprise_plan">Enterprise Plan</h3>
               <div class="price">
-                <span class="amount">Contact for Pricing</span>
+                <span class="amount" data-translate="contact_for_pricing">Contact for Pricing</span>
               </div>
-              <p class="description">Secure AI for businesses, local data.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="enterprise_plan_description">Secure AI for businesses, local data.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Local ERP Integration</li>
-                <li><i class="bi bi-check-circle-fill"></i> Fiscal Automation</li>
-                <li><i class="bi bi-check-circle-fill"></i> Logistics AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> Advanced Vision</li>
-                <li><i class="bi bi-check-circle-fill"></i> Local Data Storage</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_erp_integration">Local ERP Integration</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="fiscal_automation">Fiscal Automation</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="logistics_ai">Logistics AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="advanced_vision">Advanced Vision</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_data_storage">Local Data Storage</span></li>
               </ul>
-              <a href="#contact" class="btn btn-primary plan-select" data-plan="enterprise">Get Quote <i class="bi bi-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-primary plan-select" data-plan="enterprise" data-translate="get_quote">Get Quote <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="pricing-card">
-              <h3>Corporate Plan</h3>
+              <h3 data-translate="corporate_plan">Corporate Plan</h3>
               <div class="price">
-                <span class="amount">Contact for Pricing</span>
+                <span class="amount" data-translate="contact_for_pricing">Contact for Pricing</span>
               </div>
-              <p class="description">Secure AI for organizations, local data.</p>
-              <h4>Features Included:</h4>
+              <p class="description" data-translate="corporate_plan_description">Secure AI for organizations, local data.</p>
+              <h4 data-translate="features_included">Features Included:</h4>
               <ul class="features-list">
-                <li><i class="bi bi-check-circle-fill"></i> Custom Local AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> Marketplace AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> HR AI</li>
-                <li><i class="bi bi-check-circle-fill"></i> Vision Automation</li>
-                <li><i class="bi bi-check-circle-fill"></i> Local Data Storage</li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="custom_local_ai">Custom Local AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="marketplace_ai">Marketplace AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="hr_ai">HR AI</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="vision_automation">Vision Automation</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span data-translate="local_data_storage">Local Data Storage</span></li>
               </ul>
-              <a href="#contact" class="btn btn-primary plan-select" data-plan="corporate">Get Quote <i class="bi bi-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-primary plan-select" data-plan="corporate" data-translate="get_quote">Get Quote <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -797,8 +646,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5" data-aos="fade-up">
-          <h2 class="faq-title">Got Questions?</h2>
-          <p class="faq-description">Learn about NeuroNexis secure AI features.</p>
+          <h2 class="faq-title" data-translate="faq_title">Got Questions?</h2>
+          <p class="faq-description" data-translate="faq_description">Learn about NeuroNexis secure AI features.</p>
           <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
             <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
@@ -808,44 +657,44 @@
         <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
           <div class="faq-container">
             <div class="faq-item faq-active">
-              <h3>How secure is NeuroNexis?</h3>
+              <h3 data-translate="faq_security">How secure is NeuroNexis?</h3>
               <div class="faq-content">
-                <p>All sensitive data is stored locally on your PC or device with end-to-end encryption and biometric access.</p>
+                <p data-translate="faq_security_answer">All sensitive data is stored locally on your PC or device with end-to-end encryption and biometric access.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
             <div class="faq-item">
-              <h3>Which plans run locally?</h3>
+              <h3 data-translate="faq_local_plans">Which plans run locally?</h3>
               <div class="faq-content">
-                <p>Pro, Business, Enterprise, and Corporate plans run as secure apps on compatible PCs and devices.</p>
+                <p data-translate="faq_local_plans_answer">Pro, Business, Enterprise, and Corporate plans run as secure apps on compatible PCs and devices.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
             <div class="faq-item">
-              <h3>What devices are supported?</h3>
+              <h3 data-translate="faq_devices">What devices are supported?</h3>
               <div class="faq-content">
-                <p>Pro and Business plans support home-compatible PCs and select mobile devices (check compatibility list).</p>
+                <p data-translate="faq_devices_answer">Pro and Business plans support home-compatible PCs and select mobile devices (check compatibility list).</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
             <div class="faq-item">
-              <h3>How does computer vision work?</h3>
+              <h3 data-translate="faq_computer_vision">How does computer vision work?</h3>
               <div class="faq-content">
-                <p>Processes images locally for object detection and visual automation, keeping data on your device.</p>
+                <p data-translate="faq_computer_vision_answer">Processes images locally for object detection and visual automation, keeping data on your device.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
             <div class="faq-item">
-              <h3>Can it integrate with other tools?</h3>
+              <h3 data-translate="faq_integrations">Can it integrate with other tools?</h3>
               <div class="faq-content">
-                <p>Connects securely with Google Workspace, Trello, Salesforce, and more.</p>
+                <p data-translate="faq_integrations_answer">Connects securely with Google Workspace, Trello, Salesforce, and more.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
             <div class="faq-item">
-              <h3>Does it support financial planning?</h3>
+              <h3 data-translate="faq_google_integration">How does Google integration work?</h3>
               <div class="faq-content">
-                <p>Premium plan offers budget tracking and investment insights, cloud-based.</p>
+                <p data-translate="faq_google_integration_answer">Securely connects with your Google account to provide personalized feedback based on your digital footprint.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div>
@@ -861,9 +710,9 @@
       <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
         <div class="col-xl-10">
           <div class="text-center">
-            <h3>Secure AI Productivity</h3>
-            <p>Run NeuroNexis on your PC or device with local data storage.</p>
-            <a class="cta-btn" href="#pricing">Get Started</a>
+            <h3 data-translate="secure_productivity">Secure AI Productivity</h3>
+            <p data-translate="call_to_action_2_description">Run NeuroNexis on your PC or device with local data storage and Google integration.</p>
+            <a class="cta-btn" href="#pricing" data-translate="get_started">Get Started</a>
           </div>
         </div>
       </div>
@@ -873,21 +722,21 @@
   <!-- Contact Section -->
   <section id="contact" class="contact section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Contact</h2>
-      <p>Reach out for support or quotes</p>
+      <h2 data-translate="contact">Contact</h2>
+      <p data-translate="contact_subtitle">Reach out for support or quotes</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row g-4 g-lg-5">
         <div class="col-lg-5">
           <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-            <h3>Contact Info</h3>
-            <p>Connect with our team for inquiries.</p>
+            <h3 data-translate="contact_info">Contact Info</h3>
+            <p data-translate="contact_info_description">Connect with our team for inquiries.</p>
             <div class="info-item" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box">
                 <i class="bi bi-geo-alt"></i>
               </div>
               <div class="content">
-                <h4>Location</h4>
+                <h4 data-translate="location">Location</h4>
                 <p>123 Tech Street</p>
                 <p>Innovation City, IC 12345</p>
               </div>
@@ -897,7 +746,7 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="content">
-                <h4>Phone</h4>
+                <h4 data-translate="phone">Phone</h4>
                 <p>+1 234 567 8901</p>
               </div>
             </div>
@@ -906,7 +755,7 @@
                 <i class="bi bi-envelope"></i>
               </div>
               <div class="content">
-                <h4>Email</h4>
+                <h4 data-translate="email">Email</h4>
                 <p>support@neuronexis.com</p>
               </div>
             </div>
@@ -914,27 +763,27 @@
         </div>
         <div class="col-lg-7">
           <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-            <h3>Get In Touch</h3>
-            <p>Send a message for demos or inquiries.</p>
+            <h3 data-translate="get_in_touch">Get In Touch</h3>
+            <p data-translate="get_in_touch_description">Send a message for demos or inquiries.</p>
             <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" data-translate-placeholder="your_name" required>
                 </div>
                 <div class="col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" data-translate-placeholder="your_email" required>
                 </div>
                 <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" data-translate-placeholder="subject" required>
                 </div>
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" data-translate-placeholder="message" required></textarea>
                 </div>
                 <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
+                  <div class="loading" data-translate="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                  <button type="submit" class="btn">Send Message</button>
+                  <div class="sent-message" data-translate="sent_message">Your message has been sent. Thank you!</div>
+                  <button type="submit" class="btn" data-translate="send_message">Send Message</button>
                 </div>
               </div>
             </form>
@@ -956,8 +805,8 @@
         <div class="footer-contact pt-3">
           <p>123 Tech Street</p>
           <p>Innovation City, IC 12345</p>
-          <p class="mt-3"><strong>Phone:</strong> <span>+1 234 567 8901</span></p>
-          <p><strong>Email:</strong> <span>support@neuronexis.com</span></p>
+          <p class="mt-3"><strong data-translate="phone">Phone:</strong> <span>+1 234 567 8901</span></p>
+          <p><strong data-translate="email">Email:</strong> <span>support@neuronexis.com</span></p>
         </div>
         <div class="social-links d-flex mt-4">
           <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -967,45 +816,45 @@
         </div>
       </div>
       <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Links</h4>
+        <h4 data-translate="links">Links</h4>
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#hero" data-translate="home">Home</a></li>
+          <li><a href="#services" data-translate="services">Services</a></li>
+          <li><a href="#pricing" data-translate="pricing">Pricing</a></li>
+          <li><a href="#contact" data-translate="contact">Contact</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Services</h4>
+        <h4 data-translate="services">Services</h4>
         <ul>
-          <li><a href="#services">Data Security</a></li>
-          <li><a href="#services">Task Automation</a></li>
-          <li><a href="#services">Computer Vision</a></li>
-          <li><a href="#services">Educational Support</a></li>
+          <li><a href="#services" data-translate="data_security">Data Security</a></li>
+          <li><a href="#services" data-translate="task_automation">Task Automation</a></li>
+          <li><a href="#services" data-translate="computer_vision">Computer Vision</a></li>
+          <li><a href="#services" data-translate="educational_support">Educational Support</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Plans</h4>
+        <h4 data-translate="plans">Plans</h4>
         <ul>
-          <li><a href="#pricing">Basic</a></li>
-          <li><a href="#pricing">Pro</a></li>
-          <li><a href="#pricing">Premium</a></li>
-          <li><a href="#pricing">Family</a></li>
+          <li><a href="#pricing" data-translate="basic_plan">Basic</a></li>
+          <li><a href="#pricing" data-translate="pro_plan">Pro</a></li>
+          <li><a href="#pricing" data-translate="premium_plan">Premium</a></li>
+          <li><a href="#pricing" data-translate="family_plan">Family</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Support</h4>
+        <h4 data-translate="support">Support</h4>
         <ul>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#faq" data-translate="faq">FAQ</a></li>
+          <li><a href="#contact" data-translate="contact_us">Contact Us</a></li>
+          <li><a href="#" data-translate="privacy_policy">Privacy Policy</a></li>
+          <li><a href="#" data-translate="terms_of_service">Terms of Service</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="container copyright text-center mt-4">
-    <p>© <span>Copyright</span> <strong class="px-1 sitename">NeuroNexis</strong> <span>All Rights Reserved</span></p>
+    <p>© <span data-translate="copyright">Copyright</span> <strong class="px-1 sitename">NeuroNexis</strong> <span data-translate="all_rights_reserved">All Rights Reserved</span></p>
   </div>
 </footer>
 
@@ -1021,6 +870,792 @@
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+<!-- Custom App JS -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Language Translations
+    const translations = {
+      en: {
+        language: "Language",
+        get_started: "Get Started",
+        secure_by_design: "Secure by Design",
+        secure_ai_app: "Secure AI App",
+        for_pcs_devices: "for PCs & Devices",
+        hero_description: "Run NeuroNexis locally on your PC or device with all sensitive data stored securely on your side, integrated with Google for personalized feedback via your digital footprint.",
+        watch_demo: "Try Demo",
+        features: "Features",
+        features_subtitle: "Secure AI tools for productivity and vision",
+        data_security: "Data Security",
+        data_security_subtitle: "Your data stays on your device.",
+        local_storage: "Local storage for sensitive data.",
+        end_to_end_encryption: "End-to-end encryption.",
+        biometric_access: "Biometric access control.",
+        task_automation: "Task Automation",
+        task_automation_subtitle: "Streamline workflows locally.",
+        calendar_email_management: "AI calendar and email management.",
+        smart_reminders: "Smart reminders for deadlines.",
+        trello_notion_integration: "Integrates with Trello, Notion, and Google Workspace.",
+        computer_vision: "Computer Vision",
+        computer_vision_subtitle: "Local visual analysis.",
+        object_detection: "Object detection in images.",
+        visual_inspections: "Automate visual inspections.",
+        smart_camera_integration: "Smart camera integration.",
+        data_security_description: "Store all sensitive data locally with encryption and biometric access.",
+        educational_support: "Educational Support",
+        educational_support_description: "AI-driven study tools with secure local data storage.",
+        business_automation: "Business Automation",
+        business_automation_description: "Automate tasks securely on your PC or device.",
+        computer_vision_description: "Analyze visuals locally for secure automation.",
+        local_app: "Local App",
+        local_app_description: "Run NeuroNexis on PCs and devices securely.",
+        secure_ai: "Secure AI",
+        secure_ai_description: "Process tasks and visuals locally.",
+        google_integration: "Google Integration",
+        google_integration_description: "Personalized feedback via secure Google and digital footprint integration.",
+        integrations: "Integrations",
+        integrations_description: "Connect with Google Workspace, Salesforce securely.",
+        device_support: "Device Support",
+        device_support_description: "Runs on compatible PCs and devices.",
+        cross_platform: "Cross-Platform",
+        cross_platform_description: "Secure app across platforms.",
+        secure_productivity: "Secure Productivity with NeuroNexis",
+        call_to_action_description: "Run a secure AI app on your PC or device with all data stored locally and personalized via Google integration.",
+        get_started_now: "Get Started Now",
+        services: "Services",
+        services_subtitle: "Secure AI for productivity",
+        data_security_service_description: "Store all sensitive data locally with encryption on your PC or device.",
+        business_automation_service_description: "Automate tasks securely on compatible devices with local data.",
+        educational_support_service_description: "Secure AI learning tools running locally on your PC.",
+        computer_vision_service_description: "Analyze visuals locally on supported devices.",
+        learn_more: "Learn More",
+        pricing: "Pricing",
+        pricing_subtitle: "Choose your secure NeuroNexis plan",
+        basic_plan: "Basic Plan",
+        per_month: "/ month",
+        basic_plan_description: "Essential AI for individuals, cloud-based.",
+        features_included: "Features Included:",
+        calendar_tasks: "AI Calendar & Tasks",
+        smart_reminders: "Smart Reminders",
+        pomodoro_mode: "Pomodoro Mode",
+        buy_now: "Buy Now",
+        most_popular: "Most Popular",
+        pro_plan: "Pro Plan",
+        pro_plan_description: "Secure app for PCs/devices, local data.",
+        local_task_automation: "Local Task Automation",
+        trello_notion_slack: "Trello, Notion, Slack",
+        voice_transcription: "Voice Transcription",
+        basic_vision_tools: "Basic Vision Tools",
+        local_data_storage: "Local Data Storage",
+        premium_plan: "Premium Plan",
+        premium_plan_description: "Advanced AI, cloud-based.",
+        budget_ai: "Budget AI",
+        insurance_management: "Insurance Management",
+        learning_ai: "Learning AI",
+        advanced_vision: "Advanced Vision",
+        family_plan: "Family Plan",
+        contact_for_pricing: "Contact for Pricing",
+        family_plan_description: "Secure family solution, cloud-based.",
+        multi_user_accounts: "Multi-User Accounts",
+        shared_calendar: "Shared Calendar",
+        parental_controls: "Parental Controls",
+        vision_organization: "Vision Organization",
+        get_quote: "Get Quote",
+        business_plan: "Business Plan",
+        business_plan_description: "Secure app for teams, local data.",
+        local_team_automation: "Local Team Automation",
+        crm_integration: "CRM Integration",
+        contract_management: "Contract Management",
+        vision_tools: "Vision Tools",
+        enterprise_plan: "Enterprise Plan",
+        enterprise_plan_description: "Secure AI for businesses, local data.",
+        local_erp_integration: "Local ERP Integration",
+        fiscal_automation: "Fiscal Automation",
+        logistics_ai: "Logistics AI",
+        corporate_plan: "Corporate Plan",
+        corporate_plan_description: "Secure AI for organizations, local data.",
+        custom_local_ai: "Custom Local AI",
+        marketplace_ai: "Marketplace AI",
+        hr_ai: "HR AI",
+        vision_automation: "Vision Automation",
+        faq_title: "Got Questions?",
+        faq_description: "Learn about NeuroNexis secure AI features.",
+        faq_security: "How secure is NeuroNexis?",
+        faq_security_answer: "All sensitive data is stored locally on your PC or device with end-to-end encryption and biometric access.",
+        faq_local_plans: "Which plans run locally?",
+        faq_local_plans_answer: "Pro, Business, Enterprise, and Corporate plans run as secure apps on compatible PCs and devices.",
+        faq_devices: "What devices are supported?",
+        faq_devices_answer: "Pro and Business plans support home-compatible PCs and select mobile devices (check compatibility list).",
+        faq_computer_vision: "How does computer vision work?",
+        faq_computer_vision_answer: "Processes images locally for object detection and visual automation, keeping data on your device.",
+        faq_integrations: "Can it integrate with other tools?",
+        faq_integrations_answer: "Connects securely with Google Workspace, Trello, Salesforce, and more.",
+        faq_google_integration: "How does Google integration work?",
+        faq_google_integration_answer: "Securely connects with your Google account to provide personalized feedback based on your digital footprint.",
+        contact: "Contact",
+        contact_subtitle: "Reach out for support or quotes",
+        contact_info: "Contact Info",
+        contact_info_description: "Connect with our team for inquiries.",
+        location: "Location",
+        phone: "Phone",
+        email: "Email",
+        get_in_touch: "Get In Touch",
+        get_in_touch_description: "Send a message for demos or inquiries.",
+        your_name: "Your Name",
+        your_email: "Your Email",
+        subject: "Subject",
+        message: "Message",
+        loading: "Loading",
+        sent_message: "Your message has been sent. Thank you!",
+        send_message: "Send Message",
+        links: "Links",
+        home: "Home",
+        plans: "Plans",
+        support: "Support",
+        contact_us: "Contact Us",
+        privacy_policy: "Privacy Policy",
+        terms_of_service: "Terms of Service",
+        copyright: "Copyright",
+        all_rights_reserved: "All Rights Reserved"
+      },
+      ro: {
+        language: "Limbă",
+        get_started: "Începe",
+        secure_by_design: "Secur prin design",
+        secure_ai_app: "Aplicație AI securizată",
+        for_pcs_devices: "pentru PC-uri și dispozitive",
+        hero_description: "Rulează NeuroNexis local pe PC sau dispozitiv cu toate datele sensibile stocate securizat pe dispozitivul tău, integrat cu Google pentru feedback personalizat prin amprenta ta digitală.",
+        watch_demo: "Incearca demonstrația",
+        features: "Funcționalități",
+        features_subtitle: "Instrumente AI securizate pentru productivitate și viziune",
+        data_security: "Securitatea datelor",
+        data_security_subtitle: "Datele tale rămân pe dispozitivul tău.",
+        local_storage: "Stocare locală pentru date sensibile.",
+        end_to_end_encryption: "Criptare end-to-end.",
+        biometric_access: "Control acces biometric.",
+        task_automation: "Automatizarea sarcinilor",
+        task_automation_subtitle: "Optimizare fluxuri de lucru local.",
+        calendar_email_management: "Management AI pentru calendar și e-mail.",
+        smart_reminders: "Memento-uri inteligente pentru termene limită.",
+        trello_notion_integration: "Integrare cu Trello, Notion și Google Workspace.",
+        computer_vision: "Viziune computerizată",
+        computer_vision_subtitle: "Analiză vizuală locală.",
+        object_detection: "Detectarea obiectelor în imagini.",
+        visual_inspections: "Automatizarea inspecțiilor vizuale.",
+        smart_camera_integration: "Integrare cameră inteligentă.",
+        data_security_description: "Stochează toate datele sensibile local cu criptare și acces biometric.",
+        educational_support: "Suport educațional",
+        educational_support_description: "Instrumente de învățare AI cu stocare locală securizată a datelor.",
+        business_automation: "Automatizare pentru afaceri",
+        business_automation_description: "Automatizează sarcinile securizat pe PC sau dispozitiv.",
+        computer_vision_description: "Analizează imaginile local pentru automatizare securizată.",
+        local_app: "Aplicație locală",
+        local_app_description: "Rulează NeuroNexis pe PC-uri și dispozitive securizat.",
+        secure_ai: "AI securizat",
+        secure_ai_description: "Procesează sarcinile și imaginile local.",
+        google_integration: "Integrare Google",
+        google_integration_description: "Feedback personalizat prin integrare securizată cu Google și amprenta digitală.",
+        integrations: "Integrări",
+        integrations_description: "Conectare securizată cu Google Workspace, Salesforce.",
+        device_support: "Suport pentru dispozitive",
+        device_support_description: "Funcționează pe PC-uri și dispozitive compatibile.",
+        cross_platform: "Multi-platformă",
+        cross_platform_description: "Aplicație securizată pe mai multe platforme.",
+        secure_productivity: "Productivitate securizată cu NeuroNexis",
+        call_to_action_description: "Rulează o aplicație AI securizată pe PC sau dispozitiv cu toate datele stocate local și personalizate prin integrare Google.",
+        get_started_now: "Începe acum",
+        services: "Servicii",
+        services_subtitle: "AI securizat pentru productivitate",
+        data_security_service_description: "Stochează toate datele sensibile local cu criptare pe PC sau dispozitiv.",
+        business_automation_service_description: "Automatizează sarcinile securizat pe dispozitive compatibile cu date locale.",
+        educational_support_service_description: "Instrumente de învățare AI securizate care rulează local pe PC.",
+        computer_vision_service_description: "Analizează imaginile local pe dispozitive suportate.",
+        learn_more: "Află mai multe",
+        pricing: "Prețuri",
+        pricing_subtitle: "Alege planul tău securizat NeuroNexis",
+        basic_plan: "Plan de bază",
+        per_month: "/ lună",
+        basic_plan_description: "AI esențial pentru indivizi, bazat pe cloud.",
+        features_included: "Funcționalități incluse:",
+        calendar_tasks: "Calendar și sarcini AI",
+        smart_reminders: "Memento-uri inteligente",
+        pomodoro_mode: "Mod Pomodoro",
+        buy_now: "Cumpără acum",
+        most_popular: "Cel mai popular",
+        pro_plan: "Plan Pro",
+        pro_plan_description: "Aplicație securizată pentru PC/dispozitive, date locale.",
+        local_task_automation: "Automatizare locală a sarcinilor",
+        trello_notion_slack: "Trello, Notion, Slack",
+        voice_transcription: "Transcriere vocală",
+        basic_vision_tools: "Instrumente de viziune de bază",
+        local_data_storage: "Stocare locală a datelor",
+        premium_plan: "Plan Premium",
+        premium_plan_description: "AI avansat, bazat pe cloud.",
+        budget_ai: "AI pentru buget",
+        insurance_management: "Managementul asigurărilor",
+        learning_ai: "AI pentru învățare",
+        advanced_vision: "Viziune avansată",
+        family_plan: "Plan de familie",
+        contact_for_pricing: "Contactează pentru prețuri",
+        family_plan_description: "Soluție securizată pentru familie, bazată pe cloud.",
+        multi_user_accounts: "Conturi multi-utilizator",
+        shared_calendar: "Calendar partajat",
+        parental_controls: "Controale parentale",
+        vision_organization: "Organizare vizuală",
+        get_quote: "Obține o ofertă",
+        business_plan: "Plan de afaceri",
+        business_plan_description: "Aplicație securizată pentru echipe, date locale.",
+        local_team_automation: "Automatizare locală pentru echipe",
+        crm_integration: "Integrare CRM",
+        contract_management: "Managementul contractelor",
+        vision_tools: "Instrumente de viziune",
+        enterprise_plan: "Plan Enterprise",
+        enterprise_plan_description: "AI securizat pentru afaceri, date locale.",
+        local_erp_integration: "Integrare ERP locală",
+        fiscal_automation: "Automatizare fiscală",
+        logistics_ai: "AI pentru logistică",
+        corporate_plan: "Plan Corporate",
+        corporate_plan_description: "AI securizat pentru organizații, date locale.",
+        custom_local_ai: "AI local personalizat",
+        marketplace_ai: "AI pentru marketplace",
+        hr_ai: "AI pentru resurse umane",
+        vision_automation: "Automatizare vizuală",
+        faq_title: "Ai întrebări?",
+        faq_description: "Află despre funcționalitățile AI securizate ale NeuroNexis.",
+        faq_security: "Cât de securizat este NeuroNexis?",
+        faq_security_answer: "Toate datele sensibile sunt stocate local pe PC sau dispozitiv cu criptare end-to-end și acces biometric.",
+        faq_local_plans: "Ce planuri rulează local?",
+        faq_local_plans_answer: "Planurile Pro, Business, Enterprise și Corporate rulează ca aplicații securizate pe PC-uri și dispozitive compatibile.",
+        faq_devices: "Ce dispozitive sunt suportate?",
+        faq_devices_answer: "Planurile Pro și Business suportă PC-uri compatibile pentru acasă și anumite dispozitive mobile (verificați lista de compatibilitate).",
+        faq_computer_vision: "Cum funcționează viziunea computerizată?",
+        faq_computer_vision_answer: "Procesează imagini local pentru detectarea obiectelor și automatizare vizuală, păstrând datele pe dispozitiv.",
+        faq_integrations: "Se poate integra cu alte instrumente?",
+        faq_integrations_answer: "Se conectează securizat cu Google Workspace, Trello, Salesforce și altele.",
+        faq_google_integration: "Cum funcționează integrarea cu Google?",
+        faq_google_integration_answer: "Se conectează securizat cu contul tău Google pentru a oferi feedback personalizat bazat pe amprenta ta digitală.",
+        contact: "Contact",
+        contact_subtitle: "Contactează-ne pentru suport sau oferte",
+        contact_info: "Informații de contact",
+        contact_info_description: "Conectează-te cu echipa noastră pentru întrebări.",
+        location: "Locație",
+        phone: "Telefon",
+        email: "E-mail",
+        get_in_touch: "Ia legătura",
+        get_in_touch_description: "Trimite un mesaj pentru demonstrații sau întrebări.",
+        your_name: "Numele tău",
+        your_email: "E-mailul tău",
+        subject: "Subiect",
+        message: "Mesaj",
+        loading: "Încărcare",
+        sent_message: "Mesajul tău a fost trimis. Mulțumim!",
+        send_message: "Trimite mesaj",
+        links: "Link-uri",
+        home: "Acasă",
+        plans: "Planuri",
+        support: "Suport",
+        contact_us: "Contactează-ne",
+        privacy_policy: "Politica de confidențialitate",
+        terms_of_service: "Termeni de serviciu",
+        copyright: "Drepturi de autor",
+        all_rights_reserved: "Toate drepturile rezervate"
+      },
+      ru: {
+        language: "Язык",
+        get_started: "Начать",
+        secure_by_design: "Безопасно по дизайну",
+        secure_ai_app: "Безопасное приложение ИИ",
+        for_pcs_devices: "для ПК и устройств",
+        hero_description: "Запускайте NeuroNexis локально на вашем ПК или устройстве, все конфиденциальные данные хранятся безопасно на вашей стороне, интегрировано с Google для персонализированной обратной связи через ваш цифровой след.",
+        watch_demo: "Смотреть демо",
+        features: "Функции",
+        features_subtitle: "Безопасные инструменты ИИ для повышения производительности и обработки изображений",
+        data_security: "Безопасность данных",
+        data_security_subtitle: "Ваши данные остаются на вашем устройстве.",
+        local_storage: "Локальное хранение конфиденциальных данных.",
+        end_to_end_encryption: "Сквозное шифрование.",
+        biometric_access: "Биометрический контроль доступа.",
+        task_automation: "Автоматизация задач",
+        task_automation_subtitle: "Оптимизация рабочих процессов локально.",
+        calendar_email_management: "Управление календарем и электронной почтой с помощью ИИ.",
+        smart_reminders: "Умные напоминания о сроках.",
+        trello_notion_integration: "Интеграция с Trello, Notion и Google Workspace.",
+        computer_vision: "Компьютерное зрение",
+        computer_vision_subtitle: "Локальный анализ изображений.",
+        object_detection: "Обнаружение объектов на изображениях.",
+        visual_inspections: "Автоматизация визуальных проверок.",
+        smart_camera_integration: "Интеграция с умной камерой.",
+        data_security_description: "Храните все конфиденциальные данные локально с шифрованием и биометрическим доступом.",
+        educational_support: "Поддержка обучения",
+        educational_support_description: "Инструменты обучения на базе ИИ с безопасным локальным хранением данных.",
+        business_automation: "Автоматизация бизнеса",
+        business_automation_description: "Автоматизируйте задачи безопасно на вашем ПК или устройстве.",
+        computer_vision_description: "Анализируйте изображения локально для безопасной автоматизации.",
+        local_app: "Локальное приложение",
+        local_app_description: "Запускайте NeuroNexis на ПК и устройствах безопасно.",
+        secure_ai: "Безопасный ИИ",
+        secure_ai_description: "Обработка задач и изображений локально.",
+        google_integration: "Интеграция с Google",
+        google_integration_description: "Персонализированная обратная связь через безопасную интеграцию с Google и цифровым следом.",
+        integrations: "Интеграции",
+        integrations_description: "Безопасное подключение к Google Workspace, Salesforce.",
+        device_support: "Поддержка устройств",
+        device_support_description: "Работает на совместимых ПК и устройствах.",
+        cross_platform: "Кроссплатформенность",
+        cross_platform_description: "Безопасное приложение на разных платформах.",
+        secure_productivity: "Безопасная производительность с NeuroNexis",
+        call_to_action_description: "Запускайте безопасное приложение ИИ на вашем ПК или устройстве, все данные хранятся локально и персонализируются через интеграцию с Google.",
+        get_started_now: "Начать сейчас",
+        services: "Услуги",
+        services_subtitle: "Безопасный ИИ для повышения производительности",
+        data_security_service_description: "Храните все конфиденциальные данные локально с шифрованием на вашем ПК или устройстве.",
+        business_automation_service_description: "Автоматизируйте задачи безопасно на совместимых устройствах с локальными данными.",
+        educational_support_service_description: "Безопасные инструменты обучения на базе ИИ, работающие локально на вашем ПК.",
+        computer_vision_service_description: "Анализируйте изображения локально на поддерживаемых устройствах.",
+        learn_more: "Узнать больше",
+        pricing: "Цены",
+        pricing_subtitle: "Выберите свой безопасный план NeuroNexis",
+        basic_plan: "Базовый план",
+        per_month: "/ месяц",
+        basic_plan_description: "Базовый ИИ для частных лиц, облачный.",
+        features_included: "Включенные функции:",
+        calendar_tasks: "Календарь и задачи ИИ",
+        smart_reminders: "Умные напоминания",
+        pomodoro_mode: "Режим Pomodoro",
+        buy_now: "Купить сейчас",
+        most_popular: "Самый популярный",
+        pro_plan: "План Pro",
+        pro_plan_description: "Безопасное приложение для ПК/устройств, локальные данные.",
+        local_task_automation: "Локальная автоматизация задач",
+        trello_notion_slack: "Trello, Notion, Slack",
+        voice_transcription: "Транскрипция голоса",
+        basic_vision_tools: "Базовые инструменты компьютерного зрения",
+        local_data_storage: "Локальное хранение данных",
+        premium_plan: "Премиум план",
+        premium_plan_description: "Продвинутый ИИ, облачный.",
+        budget_ai: "ИИ для бюджета",
+        insurance_management: "Управление страховкой",
+        learning_ai: "ИИ для обучения",
+        advanced_vision: "Продвинутое компьютерное зрение",
+        family_plan: "Семейный план",
+        contact_for_pricing: "Свяжитесь для уточнения цен",
+        family_plan_description: "Безопасное семейное решение, облачное.",
+        multi_user_accounts: "Многопользовательские аккаунты",
+        shared_calendar: "Общий календарь",
+        parental_controls: "Родительский контроль",
+        vision_organization: "Организация изображений",
+        get_quote: "Получить предложение",
+        business_plan: "Бизнес-план",
+        business_plan_description: "Безопасное приложение для команд, локальные данные.",
+        local_team_automation: "Локальная автоматизация для команд",
+        crm_integration: "Интеграция с CRM",
+        contract_management: "Управление контрактами",
+        vision_tools: "Инструменты компьютерного зрения",
+        enterprise_plan: "План Enterprise",
+        enterprise_plan_description: "Безопасный ИИ для бизнеса, локальные данные.",
+        local_erp_integration: "Локальная интеграция с ERP",
+        fiscal_automation: "Фискальная автоматизация",
+        logistics_ai: "ИИ для логистики",
+        corporate_plan: "Корпоративный план",
+        corporate_plan_description: "Безопасный ИИ для организаций, локальные данные.",
+        custom_local_ai: "Пользовательский локальный ИИ",
+        marketplace_ai: "ИИ для маркетплейсов",
+        hr_ai: "ИИ для управления персоналом",
+        vision_automation: "Автоматизация изображений",
+        faq_title: "Есть вопросы?",
+        faq_description: "Узнайте о безопасных функциях ИИ NeuroNexis.",
+        faq_security: "Насколько безопасен NeuroNexis?",
+        faq_security_answer: "Все конфиденциальные данные хранятся локально на вашем ПК или устройстве с сквозным шифрованием и биометрическим доступом.",
+        faq_local_plans: "Какие планы работают локально?",
+        faq_local_plans_answer: "Планы Pro, Business, Enterprise и Corporate работают как безопасные приложения на совместимых ПК и устройствах.",
+        faq_devices: "Какие устройства поддерживаются?",
+        faq_devices_answer: "Планы Pro и Business поддерживают совместимые ПК для дома и некоторые мобильные устройства (проверьте список совместимости).",
+        faq_computer_vision: "Как работает компьютерное зрение?",
+        faq_computer_vision_answer: "Обрабатывает изображения локально для обнаружения объектов и автоматизации визуальных процессов, сохраняя данные на устройстве.",
+        faq_integrations: "Можно ли интегрировать с другими инструментами?",
+        faq_integrations_answer: "Безопасно подключается к Google Workspace, Trello, Salesforce и другим.",
+        faq_google_integration: "Как работает интеграция с Google?",
+        faq_google_integration_answer: "Безопасно подключается к вашему аккаунту Google для предоставления персонализированной обратной связи на основе вашего цифрового следа.",
+        contact: "Контакты",
+        contact_subtitle: "Свяжитесь для поддержки или предложений",
+        contact_info: "Контактная информация",
+        contact_info_description: "Свяжитесь с нашей командой для вопросов.",
+        location: "Местоположение",
+        phone: "Телефон",
+        email: "Электронная почта",
+        get_in_touch: "Связаться",
+        get_in_touch_description: "Отправьте сообщение для демонстраций или вопросов.",
+        your_name: "Ваше имя",
+        your_email: "Ваш email",
+        subject: "Тема",
+        message: "Сообщение",
+        loading: "Загрузка",
+        sent_message: "Ваше сообщение отправлено. Спасибо!",
+        send_message: "Отправить сообщение",
+        links: "Ссылки",
+        home: "Главная",
+        plans: "Планы",
+        support: "Поддержка",
+        contact_us: "Связаться с нами",
+        privacy_policy: "Политика конфиденциальности",
+        terms_of_service: "Условия использования",
+        copyright: "Авторские права",
+        all_rights_reserved: "Все права защищены"
+      },
+      fr: {
+        language: "Langue",
+        get_started: "Commencer",
+        secure_by_design: "Sécurisé par conception",
+        secure_ai_app: "Application IA sécurisée",
+        for_pcs_devices: "pour PC et appareils",
+        hero_description: "Exécutez NeuroNexis localement sur votre PC ou appareil avec toutes les données sensibles stockées de manière sécurisée de votre côté, intégré à Google pour un feedback personnalisé via votre empreinte numérique.",
+        watch_demo: "Regarder la démo",
+        features: "Fonctionnalités",
+        features_subtitle: "Outils IA sécurisés pour la productivité et la vision",
+        data_security: "Sécurité des données",
+        data_security_subtitle: "Vos données restent sur votre appareil.",
+        local_storage: "Stockage local pour les données sensibles.",
+        end_to_end_encryption: "Chiffrement de bout en bout.",
+        biometric_access: "Contrôle d'accès biométrique.",
+        task_automation: "Automatisation des tâches",
+        task_automation_subtitle: "Optimisez les flux de travail localement.",
+        calendar_email_management: "Gestion de calendrier et d'emails par IA.",
+        smart_reminders: "Rappels intelligents pour les délais.",
+        trello_notion_integration: "Intégration avec Trello, Notion et Google Workspace.",
+        computer_vision: "Vision par ordinateur",
+        computer_vision_subtitle: "Analyse visuelle locale.",
+        object_detection: "Détection d'objets dans les images.",
+        visual_inspections: "Automatisation des inspections visuelles.",
+        smart_camera_integration: "Intégration de caméra intelligente.",
+        data_security_description: "Stockez toutes les données sensibles localement avec chiffrement et accès biométrique.",
+        educational_support: "Support éducatif",
+        educational_support_description: "Outils d'apprentissage basés sur l'IA avec stockage local sécurisé des données.",
+        business_automation: "Automatisation pour les entreprises",
+        business_automation_description: "Automatisez les tâches de manière sécurisée sur votre PC ou appareil.",
+        computer_vision_description: "Analysez les visuels localement pour une automatisation sécurisée.",
+        local_app: "Application locale",
+        local_app_description: "Exécutez NeuroNexis sur PC et appareils de manière sécurisée.",
+        secure_ai: "IA sécurisée",
+        secure_ai_description: "Traitez les tâches et les visuels localement.",
+        google_integration: "Intégration Google",
+        google_integration_description: "Feedback personnalisé via une intégration sécurisée avec Google et votre empreinte numérique.",
+        integrations: "Intégrations",
+        integrations_description: "Connexion sécurisée avec Google Workspace, Salesforce.",
+        device_support: "Support des appareils",
+        device_support_description: "Fonctionne sur les PC et appareils compatibles.",
+        cross_platform: "Multi-plateforme",
+        cross_platform_description: "Application sécurisée sur plusieurs plateformes.",
+        secure_productivity: "Productivité sécurisée avec NeuroNexis",
+        call_to_action_description: "Exécutez une application IA sécurisée sur votre PC ou appareil avec toutes les données stockées localement et personnalisées via l'intégration Google.",
+        get_started_now: "Commencez maintenant",
+        services: "Services",
+        services_subtitle: "IA sécurisée pour la productivité",
+        data_security_service_description: "Stockez toutes les données sensibles localement avec chiffrement sur votre PC ou appareil.",
+        business_automation_service_description: "Automatisez les tâches de manière sécurisée sur les appareils compatibles avec des données locales.",
+        educational_support_service_description: "Outils d'apprentissage IA sécurisés fonctionnant localement sur votre PC.",
+        computer_vision_service_description: "Analysez les visuels localement sur les appareils pris en charge.",
+        learn_more: "En savoir plus",
+        pricing: "Tarifs",
+        pricing_subtitle: "Choisissez votre plan sécurisé NeuroNexis",
+        basic_plan: "Plan de base",
+        per_month: "/ mois",
+        basic_plan_description: "IA essentiel pour les particuliers, basé sur le cloud.",
+        features_included: "Fonctionnalités incluses :",
+        calendar_tasks: "Calendrier et tâches IA",
+        smart_reminders: "Rappels intelligents",
+        pomodoro_mode: "Mode Pomodoro",
+        buy_now: "Acheter maintenant",
+        most_popular: "Le plus populaire",
+        pro_plan: "Plan Pro",
+        pro_plan_description: "Application sécurisée pour PC/appareils, données locales.",
+        local_task_automation: "Automatisation locale des tâches",
+        trello_notion_slack: "Trello, Notion, Slack",
+        voice_transcription: "Transcription vocale",
+        basic_vision_tools: "Outils de vision de base",
+        local_data_storage: "Stockage local des données",
+        premium_plan: "Plan Premium",
+        premium_plan_description: "IA avancé, basé sur le cloud.",
+        budget_ai: "IA pour le budget",
+        insurance_management: "Gestion des assurances",
+        learning_ai: "IA pour l'apprentissage",
+        advanced_vision: "Vision avancée",
+        family_plan: "Plan familial",
+        contact_for_pricing: "Contactez pour les tarifs",
+        family_plan_description: "Solution familiale sécurisée, basée sur le cloud.",
+        multi_user_accounts: "Comptes multi-utilisateurs",
+        shared_calendar: "Calendrier partagé",
+        parental_controls: "Contrôles parentaux",
+        vision_organization: "Organisation visuelle",
+        get_quote: "Obtenir un devis",
+        business_plan: "Plan d'affaires",
+        business_plan_description: "Application sécurisée pour les équipes, données locales.",
+        local_team_automation: "Automatisation locale pour les équipes",
+        crm_integration: "Intégration CRM",
+        contract_management: "Gestion des contrats",
+        vision_tools: "Outils de vision",
+        enterprise_plan: "Plan Entreprise",
+        enterprise_plan_description: "IA sécurisée pour les entreprises, données locales.",
+        local_erp_integration: "Intégration ERP locale",
+        fiscal_automation: "Automatisation fiscale",
+        logistics_ai: "IA pour la logistique",
+        corporate_plan: "Plan Corporate",
+        corporate_plan_description: "IA sécurisée pour les organisations, données locales.",
+        custom_local_ai: "IA local personnalisé",
+        marketplace_ai: "IA pour les marketplaces",
+        hr_ai: "IA pour les ressources humaines",
+        vision_automation: "Automatisation visuelle",
+        faq_title: "Des questions ?",
+        faq_description: "Découvrez les fonctionnalités IA sécurisées de NeuroNexis.",
+        faq_security: "NeuroNexis est-il sécurisé ?",
+        faq_security_answer: "Toutes les données sensibles sont stockées localement sur votre PC ou appareil avec un chiffrement de bout en bout et un accès biométrique.",
+        faq_local_plans: "Quels plans fonctionnent localement ?",
+        faq_local_plans_answer: "Les plans Pro, Business, Enterprise et Corporate fonctionnent comme des applications sécurisées sur les PC et appareils compatibles.",
+        faq_devices: "Quels appareils sont pris en charge ?",
+        faq_devices_answer: "Les plans Pro et Business prennent en charge les PC compatibles pour la maison et certains appareils mobiles (vérifiez la liste de compatibilité).",
+        faq_computer_vision: "Comment fonctionne la vision par ordinateur ?",
+        faq_computer_vision_answer: "Traite les images localement pour la détection d'objets et l'automatisation visuelle, en gardant les données sur votre appareil.",
+        faq_integrations: "Peut-il s'intégrer avec d'autres outils ?",
+        faq_integrations_answer: "Se connecte de manière sécurisée à Google Workspace, Trello, Salesforce et plus encore.",
+        faq_google_integration: "Comment fonctionne l'intégration avec Google ?",
+        faq_google_integration_answer: "Se connecte de manière sécurisée à votre compte Google pour fournir un feedback personnalisé basé sur votre empreinte numérique.",
+        contact: "Contact",
+        contact_subtitle: "Contactez-nous pour du support ou des devis",
+        contact_info: "Informations de contact",
+        contact_info_description: "Contactez notre équipe pour toute question.",
+        location: "Emplacement",
+        phone: "Téléphone",
+        email: "Email",
+        get_in_touch: "Prendre contact",
+        get_in_touch_description: "Envoyez un message pour des démos ou des questions.",
+        your_name: "Votre nom",
+        your_email: "Votre email",
+        subject: "Sujet",
+        message: "Message",
+        loading: "Chargement",
+        sent_message: "Votre message a été envoyé. Merci !",
+        send_message: "Envoyer le message",
+        links: "Liens",
+        home: "Accueil",
+        plans: "Plans",
+        support: "Support",
+        contact_us: "Nous contacter",
+        privacy_policy: "Politique de confidentialité",
+        terms_of_service: "Conditions d'utilisation",
+        copyright: "Droit d'auteur",
+        all_rights_reserved: "Tous droits réservés"
+      },
+      de: {
+        language: "Sprache",
+        get_started: "Loslegen",
+        secure_by_design: "Sicher durch Design",
+        secure_ai_app: "Sichere KI-App",
+        for_pcs_devices: "für PCs und Geräte",
+        hero_description: "Führen Sie NeuroNexis lokal auf Ihrem PC oder Gerät aus, wobei alle sensiblen Daten sicher auf Ihrer Seite gespeichert werden, integriert mit Google für personalisiertes Feedback über Ihren digitalen Fußabdruck.",
+        watch_demo: "Demo ansehen",
+        features: "Funktionen",
+        features_subtitle: "Sichere KI-Tools für Produktivität und Bildverarbeitung",
+        data_security: "Datensicherheit",
+        data_security_subtitle: "Ihre Daten bleiben auf Ihrem Gerät.",
+        local_storage: "Lokale Speicherung für sensible Daten.",
+        end_to_end_encryption: "Ende-zu-Ende-Verschlüsselung.",
+        biometric_access: "Biometrische Zugangskontrolle.",
+        task_automation: "Aufgabenautomatisierung",
+        task_automation_subtitle: "Optimieren Sie Arbeitsabläufe lokal.",
+        calendar_email_management: "KI-gestützte Kalender- und E-Mail-Verwaltung.",
+        smart_reminders: "Intelligente Erinnerungen für Fristen.",
+        trello_notion_integration: "Integration mit Trello, Notion und Google Workspace.",
+        computer_vision: "Computer Vision",
+        computer_vision_subtitle: "Lokale Bildanalyse.",
+        object_detection: "Objekterkennung in Bildern.",
+        visual_inspections: "Automatisierung visueller Inspektionen.",
+        smart_camera_integration: "Integration intelligenter Kameras.",
+        data_security_description: "Speichern Sie alle sensiblen Daten lokal mit Verschlüsselung und biometrischem Zugriff.",
+        educational_support: "Bildungsunterstützung",
+        educational_support_description: "KI-gestützte Lernwerkzeuge mit sicherer lokaler Datenspeicherung.",
+        business_automation: "Geschäftsautomatisierung",
+        business_automation_description: "Automatisieren Sie Aufgaben sicher auf Ihrem PC oder Gerät.",
+        computer_vision_description: "Analysieren Sie Bilder lokal für sichere Automatisierung.",
+        local_app: "Lokale App",
+        local_app_description: "Führen Sie NeuroNexis sicher auf PCs und Geräten aus.",
+        secure_ai: "Sichere KI",
+        secure_ai_description: "Verarbeiten Sie Aufgaben und Bilder lokal.",
+        google_integration: "Google-Integration",
+        google_integration_description: "Personalisiertes Feedback durch sichere Integration mit Google und Ihrem digitalen Fußabdruck.",
+        integrations: "Integrationen",
+        integrations_description: "Sichere Verbindung mit Google Workspace, Salesforce.",
+        device_support: "Geräteunterstützung",
+        device_support_description: "Läuft auf kompatiblen PCs und Geräten.",
+        cross_platform: "Plattformübergreifend",
+        cross_platform_description: "Sichere App auf verschiedenen Plattformen.",
+        secure_productivity: "Sichere Produktivität mit NeuroNexis",
+        call_to_action_description: "Führen Sie eine sichere KI-App auf Ihrem PC oder Gerät aus, wobei alle Daten lokal gespeichert und über die Google-Integration personalisiert werden.",
+        get_started_now: "Jetzt loslegen",
+        services: "Dienste",
+        services_subtitle: "Sichere KI für Produktivität",
+        data_security_service_description: "Speichern Sie alle sensiblen Daten lokal mit Verschlüsselung auf Ihrem PC oder Gerät.",
+        business_automation_service_description: "Automatisieren Sie Aufgaben sicher auf kompatiblen Geräten mit lokalen Daten.",
+        educational_support_service_description: "Sichere KI-Lernwerkzeuge, die lokal auf Ihrem PC laufen.",
+        computer_vision_service_description: "Analysieren Sie Bilder lokal auf unterstützten Geräten.",
+        learn_more: "Erfahren Sie mehr",
+        pricing: "Preise",
+        pricing_subtitle: "Wählen Sie Ihren sicheren NeuroNexis-Plan",
+        basic_plan: "Basisplan",
+        per_month: "/ Monat",
+        basic_plan_description: "Grundlegende KI für Einzelpersonen, cloudbasiert.",
+        features_included: "Enthaltene Funktionen:",
+        calendar_tasks: "KI-Kalender & Aufgaben",
+        smart_reminders: "Intelligente Erinnerungen",
+        pomodoro_mode: "Pomodoro-Modus",
+        buy_now: "Jetzt kaufen",
+        most_popular: "Am beliebtesten",
+        pro_plan: "Pro-Plan",
+        pro_plan_description: "Sichere App für PCs/Geräte, lokale Daten.",
+        local_task_automation: "Lokale Aufgabenautomatisierung",
+        trello_notion_slack: "Trello, Notion, Slack",
+        voice_transcription: "Sprachtranskription",
+        basic_vision_tools: "Grundlegende Vision-Tools",
+        local_data_storage: "Lokale Datenspeicherung",
+        premium_plan: "Premium-Plan",
+        premium_plan_description: "Fortgeschrittene KI, cloudbasiert.",
+        budget_ai: "KI für Budgets",
+        insurance_management: "Versicherungsmanagement",
+        learning_ai: "KI für Lernen",
+        advanced_vision: "Fortgeschrittene Bildverarbeitung",
+        family_plan: "Familienplan",
+        contact_for_pricing: "Kontaktieren Sie für Preise",
+        family_plan_description: "Sichere Familienlösung, cloudbasiert.",
+        multi_user_accounts: "Mehrbenutzerkonten",
+        shared_calendar: "Gemeinsamer Kalender",
+        parental_controls: "Kindersicherung",
+        vision_organization: "Visuelle Organisation",
+        get_quote: "Angebot einholen",
+        business_plan: "Geschäftsplan",
+        business_plan_description: "Sichere App für Teams, lokale Daten.",
+        local_team_automation: "Lokale Teamautomatisierung",
+        crm_integration: "CRM-Integration",
+        contract_management: "Vertragsmanagement",
+        vision_tools: "Vision-Tools",
+        enterprise_plan: "Unternehmensplan",
+        enterprise_plan_description: "Sichere KI für Unternehmen, lokale Daten.",
+        local_erp_integration: "Lokale ERP-Integration",
+        fiscal_automation: "Fiskale Automatisierung",
+        logistics_ai: "KI für Logistik",
+        corporate_plan: "Konzernplan",
+        corporate_plan_description: "Sichere KI für Organisationen, lokale Daten.",
+        custom_local_ai: "Benutzerdefinierte lokale KI",
+        marketplace_ai: "KI für Marktplätze",
+        hr_ai: "KI für Personalwesen",
+        vision_automation: "Visuelle Automatisierung",
+        faq_title: "Haben Sie Fragen?",
+        faq_description: "Erfahren Sie mehr über die sicheren KI-Funktionen von NeuroNexis.",
+        faq_security: "Wie sicher ist NeuroNexis?",
+        faq_security_answer: "Alle sensiblen Daten werden lokal auf Ihrem PC oder Gerät mit Ende-zu-Ende-Verschlüsselung und biometrischem Zugriff gespeichert.",
+        faq_local_plans: "Welche Pläne laufen lokal?",
+        faq_local_plans_answer: "Die Pläne Pro, Business, Enterprise und Corporate laufen als sichere Apps auf kompatiblen PCs und Geräten.",
+        faq_devices: "Welche Geräte werden unterstützt?",
+        faq_devices_answer: "Die Pläne Pro und Business unterstützen kompatible PCs für den Heimgebrauch und ausgewählte mobile Geräte (überprüfen Sie die Kompatibilitätsliste).",
+        faq_computer_vision: "Wie funktioniert Computer Vision?",
+        faq_computer_vision_answer: "Verarbeitet Bilder lokal für Objekterkennung und visuelle Automatisierung, wobei die Daten auf Ihrem Gerät bleiben.",
+        faq_integrations: "Kann es mit anderen Tools integriert werden?",
+        faq_integrations_answer: "Verbindet sich sicher mit Google Workspace, Trello, Salesforce und mehr.",
+        faq_google_integration: "Wie funktioniert die Google-Integration?",
+        faq_google_integration_answer: "Verbindet sich sicher mit Ihrem Google-Konto, um personalisiertes Feedback basierend auf Ihrem digitalen Fußabdruck zu bieten.",
+        contact: "Kontakt",
+        contact_subtitle: "Kontaktieren Sie uns für Support oder Angebote",
+        contact_info: "Kontaktinformationen",
+        contact_info_description: "Kontaktieren Sie unser Team für Anfragen.",
+        location: "Standort",
+        phone: "Telefon",
+        email: "E-Mail",
+        get_in_touch: "In Kontakt treten",
+        get_in_touch_description: "Senden Sie eine Nachricht für Demos oder Anfragen.",
+        your_name: "Ihr Name",
+        your_email: "Ihre E-Mail",
+        subject: "Betreff",
+        message: "Nachricht",
+        loading: "Laden",
+        sent_message: "Ihre Nachricht wurde gesendet. Vielen Dank!",
+        send_message: "Nachricht senden",
+        links: "Links",
+        home: "Startseite",
+        plans: "Pläne",
+        support: "Support",
+        contact_us: "Kontaktieren Sie uns",
+        privacy_policy: "Datenschutzrichtlinie",
+        terms_of_service: "Nutzungsbedingungen",
+        copyright: "Urheberrecht",
+        all_rights_reserved: "Alle Rechte vorbehalten"
+      }
+    };
+
+    // Function to update text content based on selected language
+    function updateLanguage(lang) {
+      document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if (translations[lang][key]) {
+          element.textContent = translations[lang][key];
+        }
+      });
+      document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-translate-placeholder');
+        if (translations[lang][key]) {
+          element.placeholder = translations[lang][key];
+        }
+      });
+    }
+
+    // Language Selection
+    const langButtons = document.querySelectorAll('.lang-select');
+    langButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const lang = button.getAttribute('data-lang');
+        updateLanguage(lang);
+      });
+    });
+
+    // Set default language to English
+    updateLanguage('en');
+
+    // Plan Selection
+    const planButtons = document.querySelectorAll('.plan-select');
+    planButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const plan = button.getAttribute('data-plan');
+        const lang = document.querySelector('.lang-select.active')?.getAttribute('data-lang') || 'en';
+        const planName = translations[lang][`${plan}_plan`];
+        alert(`You selected the ${planName}! Proceed to checkout?`);
+      });
+    });
+
+    // Contact Form Submission
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData);
+        const loading = contactForm.querySelector('.loading');
+        const sentMessage = contactForm.querySelector('.sent-message');
+        const errorMessage = contactForm.querySelector('.error-message');
+
+        loading.style.display = 'block';
+        setTimeout(() => {
+          loading.style.display = 'none';
+          if (data.name && data.email && data.subject && data.message) {
+            sentMessage.style.display = 'block';
+            contactForm.reset();
+            setTimeout(() => sentMessage.style.display = 'none', 3000);
+          } else {
+            errorMessage.textContent = translations[document.querySelector('.lang-select.active')?.getAttribute('data-lang') || 'en']['error_fill_fields'] || 'Please fill all fields.';
+            errorMessage.style.display = 'block';
+            setTimeout(() => errorMessage.style.display = 'none', 3000);
+          }
+        }, 1000);
+      });
+    }
+  });
+</script>
 <!-- Custom App JS -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -1062,6 +1697,7 @@
     });
   });
 </script>
+
 
 </body>
 
